@@ -4,7 +4,7 @@ This personal project is designed to facilitate the transfer of tracks from Deez
 - Source Media Streaming: This project is not limited to Deezer as the source media streaming service because it does not rely on the source media streaming API. However, to use this tool, you will need a CSV file similar to the example provided in the repository ("csv_example.csv"). Such a file can be created using external services like "Tune My Music". The CSV file should contain the following information for each track, in this order: song_name, artist_name, album_name. Additional information can be included, but it is not necessary for the tool to function.
 - Spotify API Limitations: The Spotify API, particularly the "search" endpoint, is not perfect and may not always accurately find the correct track, even if it is easily discoverable on the Spotify app. Therefore, please be aware that there is a high possibility that not all tracks from your source playlist will be successfully exported to Spotify. Some manual addition of tracks may be required.
 - Make sure all your spotify playlists are private !
-- 
+
 # How to use : 
 1) Clone this project in your VSCode.
 2) Go to Spotify API page : https://developer.spotify.com/documentation/web-api, and create an App by following the tutorial of their page.
