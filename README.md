@@ -6,11 +6,11 @@ This personal project is designed to facilitate the transfer of tracks from Deez
 - Make sure all your spotify playlists are private !
 
 # How to use : 
-1) Clone this project in your VSCode.
-2) Go to Spotify API page : https://developer.spotify.com/documentation/web-api, and create an App by following the tutorial of their page.
-3) When your App is created, go to the settings of your App (still in the Spotify API page) to get your client_id and client_secret. Then, copy paste them in the .env file of the project. DO NOT SHARE THEM PUBLICLY.
-4) Create a CSV file for each of your source playlists. Don't bother to put them in a subfolder, just add them in the same root folder as the .py files.
-5) Make sure to install all python modules needed :
+1) Clone this project into your Visual Studio Code (VSCode).
+2) Navigate to the Spotify API page: Spotify Developer Documentation, and create an App by following the tutorial provided on their page.
+3) Once your App is created, go to the settings of your App (still on the Spotify API page) to obtain your client_id and client_secret. Copy and paste these credentials into the .env file of the project. DO NOT SHARE THESE CREDENTIALS PUBLICLY.
+4) Create a CSV file for each of your source playlists. There is no need to place them in a subfolder; simply add them to the same root folder as the .py files.
+5) Ensure that you install all the necessary Python modules.
   - os
   - base64
   - requests
