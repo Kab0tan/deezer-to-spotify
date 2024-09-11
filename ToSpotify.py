@@ -116,7 +116,7 @@ def find_spotify_track(song_name, artist_name, album_name, token):
         csv_file_name = f'{target_file_name}_excluded.csv'
         with open(csv_file_name, 'a', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
-            writer.writerow([track_name, track_uri])
+            writer.writerow([song_name, artist_name])
 
 
 #Execute
